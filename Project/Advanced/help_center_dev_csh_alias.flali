@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultAliasFile>
+    <Map Name="AIR_1000" Link="/Content/Solutions/ENA_Air_v2_Ruckus_hardware.htm" />
+    <Map Name="AIR_1001" Link="/Content/Solutions/ENA_Air_v2_Ruckus_hardware.htm#QoS_(Quality_of_Service)_Mapping" />
+</CatapultAliasFile>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h3>Manually update a Polycom phone configuration</h3>
+        <ol>
+            <li>Press the <b>Home</b> button or <b>Menu</b> key.</li>
+            <li>Press <b>Settings</b>.</li>
+            <li>Press <b>Basic</b>.</li>
+            <li>Press <b>Update Configuration</b>.</li>
+        </ol>
+        <h3>Manually update a Yealink phone configuration</h3>
+        <p>If you do not have access to the <b>Advanced Settings</b> menu, unplug the phone from its power source and plug it back it.</p>
+        <p>If you do have access to the <b>Advanced Settings</b> menu, choose <b>Reboot</b>.</p>
+    </body>
+</html>

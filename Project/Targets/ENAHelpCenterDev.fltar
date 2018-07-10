@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  MoveOutputContentToRoot="true"
+  SkinComponents=""
+  EnableResponsiveOutput="true"
+  MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
+  ResultsPerPage="10"
+  Skin="/Project/Skins/ENAHelpCenterDev.flskn"
+  ConditionTagExpression="exclude[General.Exclude] "
+  DefaultUrl="/Content/Home.htm"
+  SearchResultsSkin="/Project/Skins/SearchResults.flskn"
+  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
+  MasterStylesheetOverride="true"
+  DisableAutoSync="false"
+  GetLatestBeforeCompile="true"
+  MasterToc="/Project/TOCs/Help.fltoc"
+  SearchEngine="MadCapSearch"
+  EnableSitemap="true"
+  SitemapWebUrl="help.ena.com/dev/">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/ENA Help Center Dev.fldes"
+      Publish="true" />
+  </Destinations>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+  <Elasticsearch
+    Guid="7ad899b8-f3b4-4acf-ac2f-4e60bfd8a150" />
+</CatapultTarget>

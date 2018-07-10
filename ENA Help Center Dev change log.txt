@@ -1,0 +1,23 @@
+5/16/18
+Added UTM placeholder to home.htm
+Added topic heading to ENA_UTM.htm
+Added glossary terms
+
+5/17/18
+Moved ENA Air content from mediawiki
+Created Air landing page
+Began drafting Air V2 / Ruckus page
+
+5/23/18
+Created ENA SmartVoice Hosted Call Recording page
+Added page to TOC
+Created Content/Resources/Multimedia folder, put screen captures in there.
+
+5/24/18
+added hcr to smartvoice home page
+added logo to smartvoice welcome page folder
+
+5/25/18
+hcr content to page
+ 
+

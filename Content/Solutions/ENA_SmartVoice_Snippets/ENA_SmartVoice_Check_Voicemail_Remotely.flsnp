@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="391" MadCap:lastWidth="1097">
+    <head>
+    </head>
+    <body>
+        <h3>How do I check my voicemail remotely?</h3>
+        <p>If you have a direct dial number you can call from outside the system:</p>
+        <ol>
+            <li>Call your number.</li>
+            <li>When you hear your voicemail greeting, press the star key (*).</li>
+            <li>Follow the prompts.</li>
+        </ol>
+        <p>If you have an extension-only number you cannot call from outside the system:</p>
+        <ol>
+            <li>Dial 877-675-1152.</li>
+            <li>When prompted, enter your full 10-digit number. This will be a customer prefix followed by your extension. If you do not know your customer prefix, check with your system administrator.</li>
+            <li>Follow the prompts.</li>
+        </ol>
+    </body>
+</html>

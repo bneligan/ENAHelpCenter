@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="This is my publish destination"
+  Host="help.ena.com"
+  User="MyAccountId"
+  Password=""
+  Directory="help.ena.com/dev"
+  Port="22"
+  ViewUrl="https://help.ena.com/dev"
+  Type="sftp"
+  SftpServerValidation="validation-none"
+  SftpAuthentication="authentication-public-key-password"
+  SftpPublicKeyFile="N:\Help Center\flare_key.txt"
+  SftpPublicKeyPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAphzFQhsKPkSFpY0fAF5tWgAAAAACAAAAAAADZgAAwAAAABAAAAAVeaFrBBfjaDXJwvUksDpUAAAAAASAAACgAAAAEAAAAAvfun7Xan3mXP7WWQDLfY8YAAAA8pW9ZmmBp2NW46z5WrT6qnIZcuQLD+nKFAAAAHv0smnFNIsy0B+d2q8uh0/3WAVc"></CatapultDestination>

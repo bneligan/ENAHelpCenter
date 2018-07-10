@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    glossTerm="Glossary.Term16"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Client</Term>
+    </Terms>
+    <Definition
+      Link="">Computer or server onto which the ENA TrustBackup Agent is installed</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term19"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Backup set</Term>
+    </Terms>
+    <Definition
+      Link="">A list of rules which define what files you want to backup, when and how often you want to back them up, and the duration of time for which they are kept.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term0"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Agent</Term>
+    </Terms>
+    <Definition
+      Link="">ENA TrustBackup software installed on a client</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term1"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Tag</Term>
+    </Terms>
+    <Definition
+      Link="">Tags are a way to group and filter agents</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term2"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Job</Term>
+    </Terms>
+    <Definition
+      Link="">Session during which a backup set is run on an agent</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term3"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Antispam</Term>
+    </Terms>
+    <Definition
+      Link="">Antispam refers to products and services that focus on blocking and mitigating the receipt of and effects of malicious emails (spam) on users and organizations. These can include a range of filters, scanners, and other applications that monitor email signatures, IP addresses, or other data.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term4"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>AntiVirus</Term>
+    </Terms>
+    <Definition
+      Link="">AntiVirus provides protection against a variety of threats, including known and unknown malicious codes (malware) and Advanced Persistent Threats (APT).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term5"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Authentication</Term>
+    </Terms>
+    <Definition
+      Link="">Authentication is a process that validates a user’s identity before accessing information, systems, or other protected digital environments. Typically, this includes usernames and passwords, and may include additional protective multi-factor authentication layers, such as fingerprints, text message codes, etc.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term6"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>CA</Term>
+    </Terms>
+    <Definition
+      Link="">A certificate authority (CA) is an entity that issues digital certificates, which are used to establish secure connections over a network, typically the Internet. The CA acts as a trusted third-party by verifying the identity of a certificate’s owner: for example, the certificate found when you go to https://www.facebook.com is verified as belonging to Facebook.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term7"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Captive Portal</Term>
+    </Terms>
+    <Definition
+      Link="">A captive portal is an authentication page that appears when ENA NetShield UTM receives an HTTP request from an unauthenticated user. After authentication, users can access resources, as permitted by security policies. There are four types of captive portals: Authentication, Disclaimer Only, Disclaimer + Authentication, and Email Collection.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term8"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Certificates</Term>
+    </Terms>
+    <Definition
+      Link="">In networking, certificates (including public key certificates, digital certificates, and identity certificates) provide digital signatures for websites or other electronic communication and allow you to verify whether a digital identity is legitimate. Certificates can be used for many things, including SSL inspection and user authentication.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term9"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>DHCP</Term>
+    </Terms>
+    <Definition
+      Link="">Dynamic Host Configuration Protocol is a networking protocol that allows devices to request network parameters, such as IP addresses, automatically from a DHCP server, reducing the need to assign these settings manually.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term10"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>DNS</Term>
+    </Terms>
+    <Definition
+      Link="">Domain Name System is used by devices connecting to the Internet to locate websites by mapping a domain name to a website’s IP address. For example, a DNS server maps the domain name www.fortinet.com to the IP address 66.171.121.34. Your firewall controls which DNS servers the network uses.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term11"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Static NAT</Term>
+    </Terms>
+    <Definition
+      Link="">This table enables the user to define and control the address translation performed by ENA NetShield UTM. With the NAT table, users can define the rules dictating the source address or address group, and which IP pool the destination address uses. This table gives full control over both the IP addresses and port translation. ENA NetShield UTM reads the NAT rules in a top-down order, until it hits a matching rule for the incoming address. This enables the user to create multiple NAT policies that dictate which IP pool is used based on the source address. The NAT policies are applied to network traffic after a security policy.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term12"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>ECMP</Term>
+    </Terms>
+    <Definition
+      Link="">Equal Cost Multipath Routing allows next-hop packet forwarding to a single destination to occur over multiple best paths that have the same value in routing metric calculations. ECMP is used for a variety of purposes, including load balancing.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term13"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Egress</Term>
+    </Terms>
+    <Definition
+      Link="">Outbound traffic exiting the device.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term14"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Explicit Proxy</Term>
+    </Terms>
+    <Definition
+      Link="">Explicit proxy is a type of configuration where all clients are configured to allow requests to go through a proxy server, which is a server used as an intermediary for requests from clients seeking resources
+
+from other servers. When explicit proxy is used, the clients sending traffic are given the IP address and port number of the proxy server.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term15"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Firewall</Term>
+    </Terms>
+    <Definition
+      Link="">A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules. Basic or traditional firewalls are able to define rules and make decisions based on OSI layers 2-4. Next generation firewalls are able to define rules and make decisions based on OSI layers 2-7.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term17"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>FQDN</Term>
+    </Terms>
+    <Definition
+      Link="">Fully Qualified Domain Name is the complete domain name for a specific computer or host on the internet. The FQDN has two parts: the hostname and the domain name. FQDN addressing allows the user to take advantage of the dynamic abilities of DNS to keep up with address changes without having to manually change the addresses on the ENA NetShield UTM. FQDN addresses are most often used with external websites, but they can be used for internal ones as well, as long as there is a trusted DNS server that can be accessed. Example: a mail server might be schoolmail.district.edu. The hostname is “schoolmail” and the host is located within the domain “district.”</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term18"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>FTP</Term>
+    </Terms>
+    <Definition
+      Link="">File Transfer Protocol is a standard protocol used to transfer computer files from one host to another host over a computer network, usually the Internet, using FTP client and server applications.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term20"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Gateway</Term>
+    </Terms>
+    <Definition
+      Link="">A gateway is the IP address that traffic is sent to if it needs to reach resources that are not located on the local subnet. In most ENA NetShield UTM configurations, a default route using a gateway provided by an Internet service provider must be set to allow Internet traffic.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term21"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>GUI</Term>
+    </Terms>
+    <Definition
+      Link="">The Graphical User Interface, also known as the web-based manager, is a graphics-based interface that serves as an alternative to using the Command Line Interface (see CLI). ENA NetShield customers can access their GUI via my.ena.com.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term22"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>HTTP</Term>
+    </Terms>
+    <Definition
+      Link="">Hypertext Transfer Protocol is a protocol used for unencrypted communication over computer networks, including the Internet, where it is used to access websites.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term23"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>HTTPS</Term>
+    </Terms>
+    <Definition
+      Link="">Hypertext Transfer Protocol Secure is a protocol that secures HTTP communications using the Secure Sockets Layer (SSL) protocol. HTTPS is the most commonly used secure communication protocol on the Internet.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term24"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Ingress</Term>
+    </Terms>
+    <Definition
+      Link="">Inbound traffic entering the device.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term25"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Interfaces</Term>
+    </Terms>
+    <Definition
+      Link="">Interfaces are the points at which communication between two different environments takes place. These points can be physical, like the Ethernet ports on a firewall, or logical, like a VPN portal.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term26"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Intrusion Prevention System</Term>
+    </Terms>
+    <Definition
+      Link="">An Intrusion Prevention System technology protects a network from malicious activity by monitoring, seeking, and blocking external threats or policy violations before they enter the network. The IPS identifies suspicious activity, logs the information, attempts to block the activity, and reports the activity to administrative users. IPS technologies can be purchased as individual devices or services, or as part of a Unified Threat Management system.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term27"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>IP Addres</Term>
+    </Terms>
+    <Definition
+      Link="">An Internet Protocol address is a numerical label assigned to each device participating in a computer network that uses the Internet Protocol for communication. ENA NetShield UTM can use IP addresses to filter traffic and determine whether to allow or deny traffic. Both IP version 4 and IP version 6 (see IPv4 and IPv6) are supported by ENA NetShield UTM.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term28"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>IP Pool</Term>
+    </Terms>
+    <Definition
+      Link="">A sequential set of IP addresses (a “pool”) within a certain network. There may be multiple pool configurations. Each pool can have a priority and can be assigned to a group. IP pool supports both IPv4 and IPv6 addresses.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term29"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>IPsec</Term>
+    </Terms>
+    <Definition
+      Link="">Internet Protocol Security is used to for securing IP communications by authenticating and encrypting each packet of a session. ENA NetShield UTM primarily uses this protocol to secure virtual private networks (see VPN).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term30"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>IPv4</Term>
+    </Terms>
+    <Definition
+      Link="">Internet Protocol version 4 is the fourth version of the Internet Protocol (IP), the main protocol used for communication over the Internet. IPv4 addresses are 32-bit and can be represented in notation by 4 octets of decimal digits, separated by a period: for example, 172.16.254.1.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term31"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>IPv6</Term>
+    </Terms>
+    <Definition
+      Link="">Internet Protocol version 6 is the sixth version of the Internet Protocol (IP), the main protocol used for communication over the Internet (IPv5 never became an official protocol). IPv6 was created in response to the depletion of available IPv4 addresses. IPv6 addresses are 128-bit and can be represented in notation by 8 octets of hexadecimal digits, separated by a colon: for example, 2001:db8:0000:0000:0000:0000:0000:0000. IPv6 addresses can be shortened if all the octets are 0000; for example, the previous address can also be written as 2001:db8::</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term32"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>LDAP</Term>
+    </Terms>
+    <Definition
+      Link="">Lightweight Directory Access Protocol is a protocol used for accessing and maintaining distributed directory information services over a network. LDAP servers are commonly used for user authentication.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term33"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>MAC Address</Term>
+    </Terms>
+    <Definition
+      Link="">A Media Access Control address is a unique identifier assigned to a network interface used for network communication. A MAC address is assigned to a device by the manufacturer and so this address, unlike an IP address, is not normally changed. MAC addresses are represented in notation by six groups of two hexadecimal digits, separated by hyphens or colons: for example, 01:23:45:67:89:ab.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term34"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>NAT</Term>
+    </Terms>
+    <Definition
+      Link="">Network Address Translation is a process used to modify, or translate, either the source or destination IP address or port in a packet header. The primary use for NAT is to allow multiple network devices on a private network to be represented by a single public IP address when they browse the internet.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term35"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Packet</Term>
+    </Terms>
+    <Definition
+      Link="">A packet is a unit of data that is transmitted between communicating devices. A packet contains both the message being sent and control information, such as the source address (the IP address of the device that sent the packet) and the destination address (the IP address of the device the packet is being sent to).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term36"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Patch Management</Term>
+    </Terms>
+    <Definition
+      Link="">A strategy for managing patches or upgrades for software applications. Patches are often required to fix existing problems with software noticed after the initial release that impact either/both security or
+
+functionality. As part of the ENA NetShield UTM product, all patch and upgrade requirements are managed by ENA engineers.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term37"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Ping</Term>
+    </Terms>
+    <Definition
+      Link="">Ping is a utility used to test whether devices are connected over a IP network and to measure how long it takes for a reply to be received after the message is sent, using a protocol called Internet Control Message Protocol (ICMP). If ICMP is enabled on the destination interface, you can ping the IP address of an ENA NetShield UTM interface to test connectivity between it and your computer. You can also use the CLI command execute ping to test connectivity between ENA NetShield UTM and both internal and external devices.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term38"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Port Numbers</Term>
+    </Terms>
+    <Definition
+      Link="">Port numbers are communication endpoints used to allow network communication. Different ports are used for different application-specific or process-specific purposes; for example, HTTP protocol commonly uses port 80.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term39"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Protocol</Term>
+    </Terms>
+    <Definition
+      Link="">A network protocol defnies the rules and conventions for communication between network devices. They include ways for devices to identify and make connections with each other, as well as formatting rules to ensure data is packaged appropriately for the receiving device.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term40"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>ICMP</Term>
+    </Terms>
+    <Definition
+      Link="">Internet Control Message Protocol transfers control information for the status of the network itself, as opposed to application data transferred by many other protocols. An IP network requires ICMP to function correctly. The most common example of ICMP messaging is the ping utility, which probes remote hosts for responsiveness and measures the roundtrip time of the probe message.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term41"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>ICMP6</Term>
+    </Terms>
+    <Definition
+      Link="">Internet Control Message Protocol Version 6 is a new version of ICMP. ICMPv6 messages are transported within an IPv6 packet that may include IPv6 extension headers. ICMPv6 messages include error messages and information messages.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term42"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>IP</Term>
+    </Terms>
+    <Definition
+      Link="">Internet Protocol is the communications protocol of digital message formats and rules for exchanges between computers across a single network or a series of interconnected networks, using TCP/IP. IP is the primary protocol in the Internet layer and functions to deliver datagrams from the source host to the destination host based on their address.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term43"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>SCTP</Term>
+    </Terms>
+    <Definition
+      Link="">Stream Control Transmission Protocol operates at the transport layer and serves a similar role to TCP and UDP – ensuring reliable, in-sequence transport of messages. SCTP provides multi-homing and redundant paths to increase resilience and reliability.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term44"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>TCP</Term>
+    </Terms>
+    <Definition
+      Link="">Transmission Control Protocol is used in the transmission of data over networks. TCP works with IP (TCP/IP) and its function is to ensure the reliability of data during transmission.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term45"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>UDP</Term>
+    </Terms>
+    <Definition
+      Link="">User Datagram Protocol is one of the oldest network protocols used today. It is a protocol for client/server network applications, based on IP and is the main alternative to TCP.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term46"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>RADIUS</Term>
+    </Terms>
+    <Definition
+      Link="">Remote Authentication Dial In User Service is a protocol that provides centralized Authentication, Authorization, and Accounting (AAA) management for users that connect and use a network service. RADIUS servers are commonly used for user authentication, including single-sign on.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term47"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Security Profile</Term>
+    </Terms>
+    <Definition
+      Link="">Security profiles are the specific combinations of security features to applied to protect a network within ENA NetShield UTM. Security Profiles components include: AntiVirus; Web Filtering; DNS Filtering; Application Control; Intrusion Protection; Anti-Spam; ICAP; SSL/SSH Inspection; Intrusion Protection; E-mail flitering
+			</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term48"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Session</Term>
+    </Terms>
+    <Definition
+      Link="">A session is the dialogue between two or more communicating devices that include all messages that pass between the devices; for example, a session is created when a user browses to a specific website on the Internet for all communication between the user’s computer and the web server that hosts the site. Sessions are tracked by ENA NetShield UTM in order to create logs about the network traffic.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term49"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>SIP</Term>
+    </Terms>
+    <Definition
+      Link="">Session Initiation Protocol is used for controlling multimedia communication sessions such as voice and video calls over Internet Protocol networks. ENA NetShield UTM uses this protocol for voice over IP (see VoIP).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term50"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>SNMP</Term>
+    </Terms>
+    <Definition
+      Link="">Simple Network Management Protocol is a protocol that monitors hardware on your network. ENA NetShield UTM can use SNMP to monitor events such as high CPU usage, VPN tunnels going down, or hardware becoming disconnected.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term51"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>SSL</Term>
+    </Terms>
+    <Definition
+      Link="">Secure Sockets Layer is a protocol for encrypting information that is transmitted over a network, including the Internet. SSL can be used for secure communications to ENA NetShield UTM, as well as for encrypting Internet traffic (see HTTPS) and for allowing remote users to access a network using SSL virtual private network (see VPN).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term52"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>SSL Inspection</Term>
+    </Terms>
+    <Definition
+      Link="">Secure Sockets Layer inspection is used by ENA NetShield UTM to scan traffic or communication sessions that use SSL for encryption, including HTTPS protocol.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term53"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>SSO</Term>
+    </Terms>
+    <Definition
+      Link="">Single Sign-On is a feature that allows a user to login just once and remembers the credentials to re-use them automatically if additional authentication is required. ENA NetShield UTM supports both Fortinet single sign-on (FSSO) and single sign-on using a RADIUS server (RSSO).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term54"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Static NAT</Term>
+    </Terms>
+    <Definition
+      Link="">Static NAT is typically applied to traffic from the internet that is going to be directed to a server on a network behind the ENA NetShield UTM. Static NAT means the actual address of the internal network is hidden from the internet. This step determines whether a route to the destination address actually exists. Static NAT must take place before routing so that the unit can route packets to the correct destination.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term55"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Static Route</Term>
+    </Terms>
+    <Definition
+      Link="">A static route is a manually-configured routing entry that is fixed and does not change if the network is changed or reconfigured.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term56"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Subnet</Term>
+    </Terms>
+    <Definition
+      Link="">A subnetwork, or subnet, is a segment of the network that is separated physically by routing network devices and/or logically by the difference in addressing of the nodes of the subnet from other subnets. Dividing the network into subnets helps performance by isolating traffic from segments of the network where it doesn’t need to go, and it aids in security by isolating access. The addressing scope of a subnet is defined by its IP address and subnet mask and its connection to other networks is achieve by the use of gateways.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term57"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>TACACS+</Term>
+    </Terms>
+    <Definition
+      Link="">Terminal Access Controller Access Control System (TACACS)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term58"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Traffic Shaping</Term>
+    </Terms>
+    <Definition
+      Link="">The manipulation and prioritization of network traffic to reduce the impact of heavy users or machines from affecting other users. Also called bandwidth throttling or rate limiting. Traffic shaping is achieved by delaying the flow of certain packets and prioritizing the flow of other preferred streams by predetermined sets of constraints. The benefits include the ability to prioritize business-critical functions over non-critical functions and the creation of tiered service levels.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term59"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>URL Filtering</Term>
+    </Terms>
+    <Definition
+      Link="">URL filtering limits access by comparing web traffic against a database to prevent users from accessing suspicious or harmful sites. Also called “web filtering.”</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term60"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>Virtual IP</Term>
+    </Terms>
+    <Definition
+      Link="">A Virtual IP (VIP) is used to NAT external or Public IP addresses to internal or Private IP addresses. Virtual IP traffic is processed first, before the regular rules of order in policies are applied. Put Virtual IP policies before any others as a reminder of where they really are in the sequence.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term61"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>VLAN</Term>
+    </Terms>
+    <Definition
+      Link="">Virtual Local Area Networks are used to logically divide a single local area network (LAN) into different parts that function independently. ENA NetShield UTM uses VLANs to provide different levels of access to users connecting to the same LAN.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term62"
+    Stem="True"
+    IgnoreCase="true">
+    <Terms>
+      <Term>VPN</Term>
+    </Terms>
+    <Definition
+      Link="">A Virtual Private Network is a private network that acts as a virtual tunnel across a public network, typically the Internet, and allows remote users to access resources on a private network. There are two main types of VPNs that can be configured using ENA NetShield UTM: IPsec VPN (see IPsec) and SSL VPN (see SSL).</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>
