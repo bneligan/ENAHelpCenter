@@ -39,7 +39,7 @@
         <h3>Download agent installer</h3>
         <ol>
             <li>Scroll to the bottom of the <b>Dashboard</b>.</li>
-            <li>Select Mac <mark>check caps</mark>or Windows 32-Bit or 64-bit, as appropriate for the machine.</li>
+            <li>Select Mac or Windows 32-Bit or 64-bit, as appropriate for the machine.</li>
             <li>Open the downloaded TrustBackupAgent.msi file.</li>
             <li>Click <b>Next</b> in the <b>Welcome to the ENA TrustBackup Setup Wizard</b> window.</li>
             <li>After reading the terms of the license agreement, click <b>I accept the terms of the License Agreement</b> to continue with the installation, and click <b>Next</b>.</li>
@@ -141,7 +141,6 @@
             <object MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-delete-agents.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
             </object>
         </p>
-        <h3 class="center">Agent status</h3>
         <h1>Backup Sets</h1>
         <p>A backup set is a list of rules which define:</p>
         <ul>
@@ -349,12 +348,12 @@
         </p>
         <h1><a name="Managing"></a>Managing Bandwidth Used by ENA TrustBackup</h1>
         <p>You can set limits on the amount of bandwidth ENA TrustBackup uses for uploads and downloads  at the global level and/or the agent level. </p>
-        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If you set a maximum upload or download speed for a specific agent using the <b>Throttle</b> tool, it overrides the global setting for that specific agent.</p>
+        <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If you set a maximum upload or download speed for a specific agent using a <b>Bandwidth Policy</b>, it overrides the global setting for that specific agent.</p>
         <h2><a name="Set"></a>Set Global Maximum Download and Upload Speeds</h2>
         <p>To set <b>Maximum download speed</b> for all agents:</p>
         <ol>
             <li>Go to <b>Other settings</b> on the <b>Settings</b> page.</li>
-            <li>In the <b>Maximum download speed</b> dropdown, select the unit of measure you would like to use.</li>
+            <li>In the <b>Maximum download speed</b> drop-down, select the unit of measure you would like to use.</li>
             <li>Enter a quantity.</li>
             <li>Click <b>Apply</b>.</li>
         </ol>
@@ -365,7 +364,7 @@
         <p>To set a <b>Maximum upload speed</b> for all agents:</p>
         <ol>
             <li>Go to <b>Other settings</b> on the <b>Settings</b> page.</li>
-            <li>In the <b>Maximum upload speed</b> dropdown, select the unit of measure you would like to use.</li>
+            <li>In the <b>Maximum upload speed</b> drop-down, select the unit of measure you would like to use.</li>
             <li>Enter a quantity.</li>
             <li>Click <b>Apply</b>.</li>
         </ol>
@@ -374,7 +373,6 @@
             </object>
         </p>
         <h2>Create a Bandwidth Policy and Assign Agents To It</h2>
-        <p>To create a bandwidth policy for upload / download speed and assign agents to it:</p>
         <ol>
             <li>
                 <p>Go to the <b>Bandwidth Policies</b> page.</p>
@@ -396,20 +394,33 @@
 </li>
             <li>Click <b>Create</b>.
                 <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">An agent can be assigned to only one bandwidth policy at a time. Once it's assigned to a bandwidth policy, the agent name will no longer appear in the list of selectable agents.</p></li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-bandwidthpolicy-create.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
         </ol>
         <h2>Managing Bandwidth Policies
 </h2>
-        <p>To edit a Bandwidth Policy:</p>
+        <h3>To edit a Bandwidth Policy:</h3>
         <ol>
             <li>Go to the <b>Bandwidth Policies</b> page.</li>
             <li>Under <b>Available Policies</b>, click <b>Edit</b>.</li>
-            <li>Under Update policy Default, select the name, Maximum upload speed, Maximum download speed, or Description fields to edit.</li>
+            <li>Under <b>Update policy Default</b>, select the name, <b>Maximum upload speed</b>, <b>Maximum download speed</b>, or <b>Description</b> fields to edit.</li>
+            <li>Click <b>Update</b>.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-bandwidthpolicy-edit.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
         </ol>
-        <p>To delete a Bandwidth Policy:</p>
+        <h3>To delete a Bandwidth Policy:</h3>
         <ol>
             <li>Go to the <b>Bandwidth Policies</b> page.</li>
             <li>Under <b>Available Policies</b>, click <b>Delete</b>.</li>
             <li>Click <b>OK</b> to confirm.</li>
+            <p>
+                <object class="border" MadCap:HTML5Video="true" src="../Resources/Multimedia/ENA-TrustBackup/ENA-TrustBackup-bandwidthpolicy-delete.mp4" MadCap:Param_controls="true" MadCap:Param_muted="true" MadCap:Param_loop="false" MadCap:Param_autoplay="false">
+                </object>
+            </p>
         </ol>
         <h1><a name="Filters"></a>Filters</h1>
         <p> By default, all files in folders you select will be backed up. You can use filters to include or exclude files and folders from your backup. A filter consists of rules which determine if a file is to be included to the backup or excluded from it. </p>
@@ -430,7 +441,7 @@
         <p>ENA TrustBackup’s filter engine processes folders first then files. The reason for this order is performance. If a folder is excluded from a backup, the files inside that folder don’t have to be processed anymore.</p>
         <p>When filter rules have been defined, the first folder is taken and the filter rules are processed one by one. The first rule that matches is applied and the following rules are not processed anymore. For instance, if the first rule excludes a folder, then this folder and all files within will be excluded from the backup even if following rules include this folder or its files.</p>
         <p>It is recommended to write folder rules first and file rules next. That way rules are written in the same order in which they will be applied when ENA TrustBackup processes them,</p>
-        <p>Once you choose <b>Exlude</b> or <b>Include</b> from the dropdown, define the rules for the filter.</p>
+        <p>Once you choose <b>Exlude</b> or <b>Include</b> from the drop-down, define the rules for the filter.</p>
         <p>Syntax parameters include:</p>
         <ul>
             <li><span style="background-color: #dcdcdc;">?</span> matches any single character.</li>
