@@ -45,7 +45,7 @@
                 <tr class="TableStyle-tablestyle-Body-Body1">
                     <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*62</b>
                     </td>
-                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Busy Call Forwarding Activation</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Enable Busy Call Forwarding </td>
                     <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
                         <p>Prime, Plus, Plus Mobile, Plus Office</p>
                     </td>
@@ -56,7 +56,7 @@
                 <tr class="TableStyle-tablestyle-Body-Body1">
                     <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*63</b>
                     </td>
-                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Busy Call Forwarding Deactivation</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Disable Busy Call Forwarding </td>
                     <td class="TableStyle-tablestyle-BodyF-Column2-Body1">
                         <p>Prime, Plus, Plus Mobile, Plus Office</p>
                     </td>
@@ -70,19 +70,33 @@
                     <td class="TableStyle-tablestyle-BodyD-Column2-Body1">Plays an announcement of the number of the last call received.</td>
                 </tr>
                 <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*72</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Enable Unconditional Call Forward</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Prime, Plus, Plus Mobile, Plus Office</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">ENA SmartVoice extensions assigned a Pro Feature Package, are forwarded using the <b>Reach Me</b> function in the ENA SmartVoice User Portal and not access (star) codes.</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
+                    <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*73</b>
+                    </td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Disable Unconditional Call Forward</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Prime, Plus, Plus Mobile, Plus Office</td>
+                    <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
+                </tr>
+                <tr class="TableStyle-tablestyle-Body-Body1">
                     <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*78</b>
                     </td>
-                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Do Not Disturb Activation</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Enable Do Not Disturb </td>
                     <td class="TableStyle-tablestyle-BodyF-Column2-Body1">All</td>
                     <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
-                        <p>When Do not Disturb is activated for an extension with a Pro feature package, caller hears system generated message that person is unavailable and call terminates.</p>
-                        <p>When Do not Disturb is activated for  all other features packages, call goes directly to voicemail.</p>
+                        <p>When Do not Disturb is enabled for an extension with a Pro feature package, caller hears system generated message that person is unavailable and call terminates.</p>
+                        <p>When Do not Disturb is enabled for  all other features packages, call goes directly to voicemail.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-tablestyle-Body-Body1">
                     <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*79</b>
                     </td>
-                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Do Not Disturb Deactivation</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Disable Do Not Disturb </td>
                     <td class="TableStyle-tablestyle-BodyF-Column2-Body1">All</td>
                     <td class="TableStyle-tablestyle-BodyD-Column2-Body1">
                         <p>&#160;</p>
@@ -91,14 +105,14 @@
                 <tr class="TableStyle-tablestyle-Body-Body1">
                     <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*92</b>
                     </td>
-                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">No Answer Call Forwarding Activation</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Enable Call Forwarding on No Answer</td>
                     <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Prime, Plus, Plus Mobile, Plus Office</td>
                     <td class="TableStyle-tablestyle-BodyD-Column2-Body1">ENA SmartVoice extensions assigned a Pro Feature Package, are forwarded using the <b>Reach Me</b> function in the ENA SmartVoice User Portal and not access (star) codes.</td>
                 </tr>
                 <tr class="TableStyle-tablestyle-Body-Body1">
                     <td class="TableStyle-tablestyle-BodyE-Column1-Body1"><b>*93</b>
                     </td>
-                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">No Answer Call Forwarding Deactivation</td>
+                    <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Disable Call Forwarding on No Answer</td>
                     <td class="TableStyle-tablestyle-BodyF-Column2-Body1">Prime, Plus, Plus Mobile, Plus Office</td>
                     <td class="TableStyle-tablestyle-BodyD-Column2-Body1">&#160;</td>
                 </tr>
