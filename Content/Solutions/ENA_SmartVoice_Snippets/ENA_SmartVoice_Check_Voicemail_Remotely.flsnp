@@ -13,7 +13,8 @@
         <p>If you have an extension-only number you cannot call from outside the system:</p>
         <ol>
             <li>Dial 877-675-1152.</li>
-            <li>When prompted, enter your full 10-digit number. This will be a customer prefix followed by your extension. If you do not know your customer prefix, check with your system administrator.</li>
+            <li>Enter your full 10-digit number.</li>
+            <p class="note" MadCap:autonum="&lt;b&gt;&lt;span style=&quot;color: #1a5091;&quot; class=&quot;mcFormatColor&quot;&gt;Note: &lt;/span&gt;&lt;/b&gt;">If you have an extension-only number, your full 10-digit number will be a customer prefix followed by your extension. If you do not know your customer prefix, check with your system administrator.</p>
             <li>Follow the prompts.</li>
         </ol>
     </body>
